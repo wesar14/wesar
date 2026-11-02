@@ -1,0 +1,13 @@
+# Only use this if the laptop actually runs SDDM.
+# Gentoo commonly reads /etc/sddm.conf.d/*.conf, so:
+#   sudo cp sddm.conf.example /etc/sddm.conf.d/10-hyprlain.conf
+# If you use greetd, gdm, lightdm, or start Hyprland from a TTY, ignore this file.
+
+[General]
+DisplayServer=wayland
+
+[Theme]
+Current=Hyprlain
+CursorTheme=rose-pine-hyprcursor
+CursorSize=32
+Font=AdwaitaMono Nerd Font

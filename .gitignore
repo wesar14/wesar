@@ -1,0 +1,25 @@
+# Local backups and generated files
+rice-backup/
+*.tar.gz
+*.log
+*.bak
+*.bak.*
+.zcompdump*
+*.zwc
+*.swp
+
+# App state, sessions, and secrets (never commit these)
+.config/vesktop/
+.config/spotify/
+.config/opencode/
+.config/zed/
+.local/share/opencode/
+.local/share/zed/
+.mozilla/
+.ssh/
+.gnupg/
+.cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
